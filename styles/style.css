@@ -24,6 +24,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+nav a.active {
+    text-decoration: underline;
+    color: #ffdd57; /* Highlight color for active page */
+}
+
 main {
     padding: 20px;
     max-width: 900px;
